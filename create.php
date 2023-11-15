@@ -2,7 +2,7 @@
 
 class Additioner
 {
-     public function process($a, $b) 
+     public function process(int $a, int $b) 
      {
          return $a + $b;
      }
@@ -10,7 +10,7 @@ class Additioner
 
 class subtract
 {
-    public function process($a, $b)
+    public function process(int $a, int $b)
     {
         return $a - $b;
     }
@@ -18,7 +18,7 @@ class subtract
 
 class Multiplier 
 {
-    public function process($a, $b)
+    public function process(int $a, int $b)
     {
         return $a * $b;
     }
@@ -26,7 +26,7 @@ class Multiplier
 
 class Divider 
 {
-    public function process($a, $b)
+    public function process(int $a, int $b)
     {
         if($b != 0)
         {
